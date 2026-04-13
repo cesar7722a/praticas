@@ -3,14 +3,14 @@ import type { Route } from "./+types/home";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Beleza" },
-    { name: "description", content: "Welcome to React Router!" },
+    { name: "description", content: "Welcome to Beleza!" },
   ];
 }
 
 export default function Home() {
   return (
     <>
-      <h1>Hello world!!</h1>
+      <h1 className="text-6xl text-black">Hello world!!</h1>
     </>
   );
 }
