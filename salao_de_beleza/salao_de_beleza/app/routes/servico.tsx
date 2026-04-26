@@ -1,3 +1,9 @@
+import { HeaderMobile } from "~/components/header";
+
 export default function Servicos() {
-  return <div>Hello world!! 1234567</div>;
+  return (
+    <div>
+      <HeaderMobile />
+    </div>
+  );
 }

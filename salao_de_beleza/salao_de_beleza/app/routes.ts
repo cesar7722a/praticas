@@ -5,4 +5,5 @@ export default [
   route("servicos", "./routes/servico.tsx"),
   route("agendamentos", "./routes/agendamento.tsx"),
   route("minhaconta", "./routes/minha_conta.tsx"),
+  route("aistudio", "./routes/aistudio.tsx"),
 ] satisfies RouteConfig;
