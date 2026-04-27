@@ -1,9 +1,9 @@
-import { HeaderMobile } from "~/components/header";
+import { Header } from "~/components/header";
 
 export default function Agendamentos() {
   return (
     <div>
-      <HeaderMobile />
+      <Header />
     </div>
   );
 }

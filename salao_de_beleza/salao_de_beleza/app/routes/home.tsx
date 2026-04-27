@@ -1,4 +1,4 @@
-import { HeaderMobile } from "~/components/header";
+import { Header } from "~/components/header";
 import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
@@ -11,8 +11,10 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <>
-      <HeaderMobile />
-      <h1 className="text-6xl text-black">Hello world!!</h1>
+      <Header />
+      <main className="h-170">
+        <h1 className="text-6xl">Hello world!!</h1>
+      </main>
     </>
   );
 }

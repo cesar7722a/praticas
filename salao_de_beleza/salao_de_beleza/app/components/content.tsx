@@ -8,6 +8,8 @@ interface ContentProps {
 
 export function Content({ children, className }: ContentProps) {
   return (
-    <div className={cn("px-4 contain-content", className)}>{children}</div>
+    <div className={cn("px-4 contain-content md:px-10", className)}>
+      {children}
+    </div>
   );
 }
